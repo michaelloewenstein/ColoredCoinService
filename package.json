@@ -1,0 +1,24 @@
+{
+  "name": "coluWeb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha tests/tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "express": "^4.14.0",
+    "js-bits": "0.0.3",
+    "lodash": "^4.13.1",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.2",
+    "sffc-encoder": "^0.1.9",
+    "should": "^9.0.2",
+    "supertest": "^1.2.0"
+  }
+}
